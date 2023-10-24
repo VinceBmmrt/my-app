@@ -1,0 +1,16 @@
+.groceriesList {
+  color: greenyellow;
+  padding: 2px;
+  border: 2px solid gray;
+  list-style: none;
+  width: 50%;
+  margin: auto;
+
+  & __item {
+    position: relative;
+    padding-left: 1.5rem;
+  }
+  &:hover {
+    color: yellow;
+  }
+}
